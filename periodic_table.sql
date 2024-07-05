@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 12.5 (Debian 12.5-1.pgdg90+1)
--- Dumped by pg_dump version 12.5 (Debian 12.5-1.pgdg90+1)
+-- Dumped from database version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
+-- Dumped by pg_dump version 12.17 (Ubuntu 12.17-1.pgdg22.04+1)
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -16,7 +16,7 @@ SET xmloption = content;
 SET client_min_messages = warning;
 SET row_security = off;
 
-DROP DATABASE IF EXISTS periodic_table;
+DROP DATABASE periodic_table;
 --
 -- Name: periodic_table; Type: DATABASE; Schema: -; Owner: postgres
 --
@@ -98,7 +98,7 @@ INSERT INTO public.properties VALUES (5, 'metalloid', 10.810000, 2075, 4000);
 INSERT INTO public.properties VALUES (6, 'nonmetal', 12.011000, 3550, 4027);
 INSERT INTO public.properties VALUES (7, 'nonmetal', 14.007000, -210.1, -195.8);
 INSERT INTO public.properties VALUES (8, 'nonmetal', 15.999000, -218, -183);
-INSERT INTO public.properties VALUES (1000, 'metalloid', 1, 10, 100);
+INSERT INTO public.properties VALUES (1000, 'metalloid', 1.000000, 10, 100);
 
 
 --
@@ -136,3 +136,4 @@ ALTER TABLE ONLY public.properties
 --
 -- PostgreSQL database dump complete
 --
+
